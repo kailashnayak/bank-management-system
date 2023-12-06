@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: aliceblue;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+div input{
+    width: 100px;
+}
+div button{
+    width: 100px;
+}
+#depositAmount{
+    padding-bottom: 10px;
+}
